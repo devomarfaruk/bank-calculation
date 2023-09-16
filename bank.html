@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <p class="font-bold text-center items-center	flex text-3xl justify-center">Lets Get Some<span
+            class="p-6 text-orange-600 text-6xl">Moneyyy!!!</span>
+    </p>
+    <div class="flex items-center justify-center space-x-10 my-10">
+        <div id="total-deposit" class="bg-amber-400 text-white p-8">
+            <p class="text-3xl font-bold">Total Deposit</p>
+            <p class="text-3xl font-bold">$<span id="previous-deposit">60</span></p>
+        </div>
+        <div id="total-withdraw" class="bg-teal-400 text-white p-8">
+            <p class="text-3xl font-bold">Total Withdraw</p>
+            <p class="text-3xl font-bold">$<span id="previous-withdraw">45</span></p>
+        </div>
+        <div id="" class="bg-green-400 text-white p-8">
+            <p class="text-3xl font-bold">Total Money</p>
+            <p class="text-3xl font-bold">$<span id="total-money">1200</span></p>
+        </div>
+    </div>
+    <div class="flex items-center justify-center space-x-10 my-10">
+        <div id="deposit-money" class="bg-red-400  p-8">
+            <p class="text-3xl font-bold text-white">Deposit Money</p>
+            <input id="deposit-amount" type="number" class="w-64 py-2 my-2 block">
+            <input id="deposit-submit" type="submit" class="w-64 py-2 my-2 bg-orange-400 cursor-pointer	">
+        </div>
+        <div id="withdraw-money" class="bg-red-400 p-8">
+            <p class="text-3xl font-bold text-white">Withdraw Money</p>
+            <input id="withdraw-amount" type="number" class="w-64 py-2 my-2 block">
+            <input id="withdraw-submit" type="submit" class="w-64 py-2 my-2 bg-orange-400 cursor-pointer	">
+        </div>
+    </div>
+
+    <script src="deposit.js"></script>
+    <script src="utility.js"></script>
+    <script src="withdraw.js"></script>
+</body>
+
+</html>
