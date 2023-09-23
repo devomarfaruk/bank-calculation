@@ -6,6 +6,8 @@ document.getElementById("withdraw-submit").addEventListener('click', function ()
 
     document.getElementById("previous-withdraw").innerText = previousWithdrawMoney + withdrawAccount;
 
+    // for test purpose
+
     const previousTotal = getTextFromId('total-money');
 
     document.getElementById("total-money").innerText = previousTotal - previousWithdrawMoney;
